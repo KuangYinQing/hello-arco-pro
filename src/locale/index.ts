@@ -18,6 +18,9 @@ const i18n = {
     'menu.result.error': 'Error',
     'menu.form.group': 'Group Form',
     'menu.dashboard.monitor': 'Real-time Monitor',
+
+    'menu.dashboard.test': 'Test',
+
     'menu.visualization.multiDimensionDataAnalysis': 'Multi-D Analysis',
     'menu.list.searchTable': 'Search Table',
     'menu.form.step': 'Step Form',
@@ -76,6 +79,7 @@ const i18n = {
     'menu.result.error': '失败页',
     'menu.form.group': '分组表单',
     'menu.dashboard.monitor': '实时监控',
+    'menu.dashboard.test': '测试',
     'menu.visualization.multiDimensionDataAnalysis': '多维数据分析',
     'menu.list.searchTable': '查询表格',
     'menu.form.step': '分步表单',
