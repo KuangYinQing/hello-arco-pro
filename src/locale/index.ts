@@ -9,6 +9,11 @@ const i18n = {
     'menu.profile': 'Profile',
     'menu.visualization': 'Data Visualization',
     'menu.user': 'User Center',
+
+    'menu.mywork': 'Mywork',
+    'menu.mywork.work1': 'Work1',
+    'menu.mywork.work2': 'Work2',
+
     'menu.exception.403': '403',
     'menu.exception.404': '404',
     'menu.exception.500': '500',
@@ -70,6 +75,11 @@ const i18n = {
     'menu.profile': '详情页',
     'menu.visualization': '数据可视化',
     'menu.user': '个人中心',
+
+    'menu.mywork': '我的作业',
+    'menu.mywork.work1': '作业1',
+    'menu.mywork.work2': '作业2',
+
     'menu.exception.403': '403',
     'menu.exception.404': '404',
     'menu.exception.500': '500',

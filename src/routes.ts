@@ -154,6 +154,20 @@ export const routes: IRoute[] = [
       },
     ],
   },
+  {
+    name: 'menu.mywork',
+    key: 'mywork',
+    children: [
+      {
+        name: 'menu.mywork.work1',
+        key: 'mywork/work1',
+      },
+      {
+        name: 'menu.mywork.work2',
+        key: 'mywork/work2',
+      },
+    ],
+  },
 ];
 
 export const getName = (path: string, routes) => {
