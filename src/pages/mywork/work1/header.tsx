@@ -18,7 +18,6 @@ import Home from './home';
 import Create from './create';
 import Person from './person';
 import Work from './work';
-export let keyprop = 1;
 function Mywork1header() {
   const ButtonGroup = Button.Group;
   const MenuItem = Menu.Item;
