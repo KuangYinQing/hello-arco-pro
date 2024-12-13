@@ -1,37 +1,40 @@
 import {
-  Avatar,
+  //   Avatar,
   Button,
-  Icon,
+  //   Icon,
   Layout,
   Menu,
-  PageHeader,
-  Radio,
+  //   PageHeader
 } from '@arco-design/web-react';
-import Search from '@arco-design/web-react/es/Input/search';
-import SiderComponent from '@arco-design/web-react/es/Layout/sider';
-import {
-  IconCamera,
-  IconHeart,
-  IconHistory,
-  IconHome,
-  IconLeft,
-  IconMessage,
-  IconMusic,
-  IconPhone,
-  IconRight,
-  IconStar,
-  IconWoman,
-} from '@arco-design/web-react/icon';
-import React, { useState } from 'react';
+// import Search from '@arco-design/web-react/es/Input/search';
+// import SiderComponent from '@arco-design/web-react/es/Layout/sider';
+// import {
+//   IconCamera,
+//   IconHeart,
+//   IconHistory,
+//   IconHome,
+//   IconLeft,
+//   IconMessage,
+//   IconMusic,
+//   IconPhone,
+//   IconRight,
+//   IconStar,
+//   IconWoman,
+// } from '@arco-design/web-react/icon';
+// import { Link } from 'react-router-dom';
+import Home from './home';
+import React from 'react';
+import Mywork1header from './header';
+//import itemkey from './header';
 function work1() {
-  const [selectedKey, setSelectedKey] = useState('0');
   const Sider = Layout.Sider;
   const ButtonGroup = Button.Group;
   const MenuItem = Menu.Item;
   return (
     <div className="layout.basic.demo">
       <Layout style={{ height: '100%' }}>
-        <PageHeader
+        <Mywork1header />
+        {/* <PageHeader
           style={{ backgroundColor: '#ddddff' }}
           title="MusicSocialize"
           subTitle="This is my musicwork"
@@ -64,7 +67,7 @@ function work1() {
               <Menu
                 mode="horizontal"
                 style={{ backgroundColor: '#ddddff' }}
-                defaultSelectedKeys={[selectedKey]}
+                defaultSelectedKeys={['0']}
               >
                 <MenuItem key="0" style={{ backgroundColor: '#ddddff' }}>
                   主页
@@ -84,9 +87,11 @@ function work1() {
               </Menu>
             </div>
           }
-        ></PageHeader>
+        ></PageHeader> */}
         <Layout>
-          <Sider></Sider>
+          <Sider width={'100%'}>
+            <Home />
+          </Sider>
         </Layout>
       </Layout>
     </div>
