@@ -161,6 +161,28 @@ export const routes: IRoute[] = [
       {
         name: 'menu.mywork.work1',
         key: 'mywork/work1',
+        // children: [
+        //   {
+        //     name: 'menu.mywork.work1.home',
+        //     key: 'mywork/work1/home',
+        //   },
+        //   {
+        //     name: 'menu.mywork.work1.create',
+        //     key: 'mywork/work1/create',
+        //   },
+        //   {
+        //     name: 'menu.mywork.work1.work',
+        //     key: 'mywork/work1/work',
+        //   },
+        //   {
+        //     name: 'menu.mywork.work1.message',
+        //     key: 'mywork/work1/message',
+        //   },
+        //   {
+        //     name: 'menu.mywork.work1.person',
+        //     key: 'mywork/work1/person',
+        //   },
+        // ],
       },
       {
         name: 'menu.mywork.work2',
